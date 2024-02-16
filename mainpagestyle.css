@@ -1,0 +1,455 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.div h1 {
+  font-size: 3.5em;
+  color: #e982a2;
+  margin-bottom: 10px;
+}
+
+.parallax {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden; /* Ensure no overflow issues */
+}
+
+#headerdiv {
+  position: absolute;
+  margin-top: -10%;
+  margin-left: 2%;
+}
+
+#headertext {
+  margin-left: 10px;
+  font-size: 4rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.parallax img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+#marcustxtbox {
+  margin-top: 120px;
+  margin-left: 1710px;
+}
+
+#gienetxtbox {
+  margin-top: 270px;
+  margin-left: -740px;
+}
+
+.num {
+  color: #f8eb75;
+}
+
+.sec {
+  position: relative;
+  background: #000000;
+  padding: 8rem;
+}
+
+.divs {
+  align-items: center;
+  justify-content: center;
+}
+
+.div {
+  padding-left: 200px; /* Adjust this value */
+  padding-right: 200px; /* Adjust this value */
+}
+
+.div h2 {
+  font-size: 2.5em;
+  color: #e982a2;
+  margin-bottom: 10px;
+}
+
+.div p {
+  font-size: 1em;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.picture-with-paragraph {
+  overflow: hidden; /* Clear float */
+}
+
+#beastsmile {
+  float: left;
+  width: 650px;
+  height: 600px;
+  margin-top: 20px;
+  margin-right: -100px;
+  margin-left: -130px;
+}
+
+#beastmessage {
+  text-align: left;
+}
+
+#texting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#texting h2 {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #e982a2;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+#bucketlist_lists {
+  padding-left: 100px;
+}
+
+.mainvideo {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Center items horizontally */
+  max-width: 70%; /* Ensure the video does not exceed its container */
+  margin: 0 auto; /* Center horizontally within parent container */
+}
+
+.nes-beast {
+  position: relative;
+  display: inline-block;
+  width: 116px;
+  height: 116px;
+}
+
+.nes-bun {
+  position: relative;
+  display: inline-block;
+  width: 96px;
+  height: 96px;
+}
+
+#musicbutton {
+  margin-left: 12px;
+}
+
+.overlay-image {
+  position: absolute;
+  z-index: 9999; /* Ensure the image stays on top */
+  width: 100px; /* Adjust this value to change the width of the image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+#spidermanhang {
+  top: 980px; /* Adjust this value to position the image */
+  left: 150px; /* Adjust this value to position the image */
+}
+
+#miles {
+  top: 1050px; /* Adjust this value to position the image */
+  left: 1670px; /* Adjust this value to position the image */
+}
+
+#bunny1 {
+  top: 1350px; /* Adjust this value to position the image */
+  left: 1750px; /* Adjust this value to position the image */
+}
+
+#heart {
+  top: 1250px; /* Adjust this value to position the image */
+  left: 50px; /* Adjust this value to position the image */
+}
+
+#pinkcar {
+  top: 1500px; /* Adjust this value to position the image */
+  left: 180px; /* Adjust this value to position the image */
+}
+
+#pinkcar2 {
+  top: 1580px; /* Adjust this value to position the image */
+  left: 1650px; /* Adjust this value to position the image */
+}
+
+#kuromi {
+  top: 1850px; /* Adjust this value to position the image */
+  left: 30px; /* Adjust this value to position the image */
+}
+
+#spidey2 {
+  top: 1800px; /* Adjust this value to position the image */
+  left: 1720px; /* Adjust this value to position the image */
+}
+
+#sun {
+  top: 2050px; /* Adjust this value to position the image */
+  left: 170px; /* Adjust this value to position the image */
+}
+
+#moon {
+  top: 2070px; /* Adjust this value to position the image */
+  left: 1630px; /* Adjust this value to position the image */
+}
+
+#electricguitar {
+  top: 2330px; /* Adjust this value to position the image */
+  left: 80px; /* Adjust this value to position the image */
+}
+
+#hp {
+  top: 2400px; /* Adjust this value to position the image */
+  left: 1770px; /* Adjust this value to position the image */
+}
+
+#ice {
+  top: 2550px; /* Adjust this value to position the image */
+  left: 150px; /* Adjust this value to position the image */
+}
+
+#iceskate {
+  top: 2640px; /* Adjust this value to position the image */
+  left: 1600px; /* Adjust this value to position the image */
+}
+
+#skorpion {
+  top: 2850px; /* Adjust this value to position the image */
+  left: 120px; /* Adjust this value to position the image */
+}
+
+#skarlet {
+  top: 2990px; /* Adjust this value to position the image */
+  left: 1680px; /* Adjust this value to position the image */
+}
+
+#mortalkombat {
+  top: 3080px; /* Adjust this value to position the image */
+  left: 200px; /* Adjust this value to position the image */
+}
+
+#marvel {
+  top: 3150px; /* Adjust this value to position the image */
+  left: 1790px; /* Adjust this value to position the image */
+}
+
+#ps5 {
+  top: 3390px; /* Adjust this value to position the image */
+  left: 70px; /* Adjust this value to position the image */
+}
+
+#avengers {
+  top: 3440px; /* Adjust this value to position the image */
+  left: 1590px; /* Adjust this value to position the image */
+}
+
+#microphone {
+  top: 3670px; /* Adjust this value to position the image */
+  left: 150px; /* Adjust this value to position the image */
+}
+
+#book {
+  top: 3650px; /* Adjust this value to position the image */
+  left: 1740px; /* Adjust this value to position the image */
+}
+
+#canada {
+  top: 3890px; /* Adjust this value to position the image */
+  left: 170px; /* Adjust this value to position the image */
+}
+
+#philippines {
+  top: 3930px; /* Adjust this value to position the image */
+  left: 1640px; /* Adjust this value to position the image */
+}
+
+#qatar {
+  top: 4250px; /* Adjust this value to position the image */
+  left: 50px; /* Adjust this value to position the image */
+}
+
+#pencil {
+  top: 4200px; /* Adjust this value to position the image */
+  left: 1720px; /* Adjust this value to position the image */
+}
+
+#scream2 {
+  top: 4500px; /* Adjust this value to position the image */
+  left: 150px; /* Adjust this value to position the image */
+}
+
+#coin {
+  top: 4450px; /* Adjust this value to position the image */
+  left: 1630px; /* Adjust this value to position the image */
+}
+
+#cat {
+  top: 4750px; /* Adjust this value to position the image */
+  left: 105px; /* Adjust this value to position the image */
+}
+
+#cat2 {
+  top: 4850px; /* Adjust this value to position the image */
+  left: 1780px; /* Adjust this value to position the image */
+}
+
+#sushi {
+  top: 5150px; /* Adjust this value to position the image */
+  left: 170px; /* Adjust this value to position the image */
+}
+
+#shawarma {
+  top: 5100px; /* Adjust this value to position the image */
+  left: 1600px; /* Adjust this value to position the image */
+}
+
+#bunny2 {
+  top: 5410px; /* Adjust this value to position the image */
+  left: 110px; /* Adjust this value to position the image */
+}
+
+#whitedog {
+  top: 5450px; /* Adjust this value to position the image */
+  left: 1670px; /* Adjust this value to position the image */
+}
+
+#cupnoodles {
+  top: 5610px; /* Adjust this value to position the image */
+  left: 160px; /* Adjust this value to position the image */
+}
+
+#boba {
+  top: 5650px; /* Adjust this value to position the image */
+  left: 1750px; /* Adjust this value to position the image */
+}
+
+#arcade {
+  top: 5850px; /* Adjust this value to position the image */
+  left: 50px; /* Adjust this value to position the image */
+}
+
+#apple_logo {
+  top: 5950px; /* Adjust this value to position the image */
+  left: 1610px; /* Adjust this value to position the image */
+}
+
+#camera {
+  top: 6150px; /* Adjust this value to position the image */
+  left: 190px; /* Adjust this value to position the image */
+}
+
+#camera2 {
+  top: 6300px; /* Adjust this value to position the image */
+  left: 1730px; /* Adjust this value to position the image */
+}
+
+#cammy {
+  top: 6450px; /* Adjust this value to position the image */
+  left: 90px; /* Adjust this value to position the image */
+}
+
+#chunli {
+  top: 6550px; /* Adjust this value to position the image */
+  left: 1670px; /* Adjust this value to position the image */
+}
+
+#pringles {
+  top: 6800px; /* Adjust this value to position the image */
+  left: 160px; /* Adjust this value to position the image */
+}
+
+#icecream {
+  top: 6950px; /* Adjust this value to position the image */
+  left: 1630px; /* Adjust this value to position the image */
+}
+
+#harry {
+  top: 7100px; /* Adjust this value to position the image */
+  left: 120px; /* Adjust this value to position the image */
+}
+
+#hedwig {
+  top: 7200px; /* Adjust this value to position the image */
+  left: 1750px; /* Adjust this value to position the image */
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+}
+
+.dialog-menu {
+  justify-content: center;
+  align-items: center;
+}
+
+#alert {
+  font-size: large;
+  margin-top: 16px;
+  margin-left: 5px;
+}
+
+#sans {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  z-index: 9999; /* Ensure it's on top of everything */
+}
+
+/* Center the dialog */
+#dialog-dark-rounded {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10000; /* Ensure it's on top of the overlay */
+}
+
+#title2 {
+  text-align: center;
+}
+
+.left-indent {
+    text-indent: 20px; /* Adjust the value as needed */
+}
+
+#videomsg {
+    text-align: left;
+}
