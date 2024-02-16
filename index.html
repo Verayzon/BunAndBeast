@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hmmm...</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="nes.css" />
+    <link rel="stylesheet" href="startpagestyle.css">
+</head>
+<body>
+    <div class="parent-container">
+        <div class="container">
+            <!-- <i class="nes-icon is-large heart"></i> -->
+            <img class = "heart" src="tumblr_mhn053shyC1rfjowdo1_500.gif">
+            <br><br><br>
+            <p class="text">Be My Valentine?</p>
+            <br><br><br>
+            
+            <form action="mainpage.html" method="GET" class="nes-field">
+                <label for="name_field">Who are you?</label>
+                <input type="text" id="name_field" class="nes-input"><br>
+                <button type="button" id="enter_button" class="nes-btn is-warning">Enter</button>
+                <button type="button" id="reset_button" class="nes-btn is-error">Reset</button>
+            </form>
+        </div>
+    </div>
+
+    <dialog style="display:none;" class="nes-dialog is-dark is-rounded" id="dialog-dark-rounded">
+        <form method="dialog">
+        <div class = "avatar-container">
+            <img id = "sans" class="nes-avatar is-medium" alt="Gravatar image example" src="cryingsans.png" style="image-rendering: pixelated;">
+            <p id = "alert" class="title">ERROR!</p>
+        </div>
+        <br>
+        <p>I don't know you! :(</p>
+        <menu class="dialog-menu">
+            <button id = "okDialogButton" class="nes-btn is-primary">OK</button>
+            <button id = "cancelDialogButton" class="nes-btn">Cancel</button>
+        </menu>
+        </form>
+    </dialog>
+
+    <script src="startpage.js"></script>
+</body>
+</html>
